@@ -1,0 +1,78 @@
+{
+  "React Native Functional Export Component": {
+    "scope": "typescriptreact,javascriptreact,typescript,javascript",
+    "prefix": "rnfe",
+    "body": [
+      "import { Text, View } from 'react-native';",
+      "import React from 'react';",
+      "",
+      "const ${1:${TM_FILENAME_BASE}} = () => {",
+      "  return (",
+      "    <View>",
+      "      <Text>${1:${TM_FILENAME_BASE}}</Text>",
+      "    </View>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ],
+    "description": "Creates a React Native Functional Component with default export"
+  },
+  "React Native Functional Export Component with Stylesheet": {
+    "scope": "typescriptreact,javascriptreact,typescript,javascript",
+    "prefix": "rnfes",
+    "body": [
+      "import { StyleSheet, Text, View } from 'react-native';",
+      "import React from 'react';",
+      "",
+      "const ${1:${TM_FILENAME_BASE}} = () => {",
+      "  return (",
+      "    <View>",
+      "      <Text>${1:${TM_FILENAME_BASE}}</Text>",
+      "    </View>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};",
+      "",
+      "const styles = StyleSheet.create({});"
+    ],
+    "description": "Creates a React Native Functional Component with StyleSheet"
+  },
+  "React Native Functional Component": {
+    "scope": "typescriptreact,javascriptreact,typescript,javascript",
+    "prefix": "rnf",
+    "body": [
+      "import { Text, View } from 'react-native';",
+      "import React from 'react';",
+      "",
+      "export function ${1:${TM_FILENAME_BASE}}() {",
+      "  return (",
+      "    <View>",
+      "      <Text>${1:${TM_FILENAME_BASE}}</Text>",
+      "    </View>",
+      "  );",
+      "}"
+    ],
+    "description": "Creates a React Native Functional Component"
+  },
+  "React Native Functional Component with Stylesheet": {
+    "scope": "typescriptreact,javascriptreact,typescript,javascript",
+    "prefix": "rnfs",
+    "body": [
+      "import { StyleSheet, Text, View } from 'react-native';",
+      "import React from 'react';",
+      "",
+      "export function ${1:${TM_FILENAME_BASE}}() {",
+      "  return (",
+      "    <View>",
+      "      <Text>${1:${TM_FILENAME_BASE}}</Text>",
+      "    </View>",
+      "  );",
+      "}",
+      "",
+      "const styles = StyleSheet.create({});"
+    ],
+    "description": "Creates a React Native Functional Component with StyleSheet"
+  }
+}
